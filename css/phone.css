@@ -1,0 +1,353 @@
+/*##################################################
+* MOBILE VIEW
+####################################################*/
+
+@media (max-width: 767px) {
+	/*#############################################
+	* GENERAL STYLES 
+	##############################################*/
+	h5
+	{
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+	h3
+	{
+		font-size: 16px;
+	}
+
+	h2
+	{
+		font-size: 22px;
+	}
+
+	p
+	{
+		font-size: 12px !important;
+	}
+
+	/*/////////////// HEADER /////////////////*/
+	.navbar
+	{
+		min-height: 2px;
+		margin: 0px;
+		position: fixed;
+		width: 100%;
+		border: 0px !important;
+		z-index: 1000;
+		padding-top: 0px;
+		background-color: rgba(51,51,51,.8);
+	}
+
+	.navbar-header-mobile
+	{
+		position: fixed;
+		width: 100%;
+		z-index: 1000;
+		height: 60px;
+	}
+
+	.navbar button
+	{
+		background: none !important;
+		border: none !important;
+		margin: 25px 25px 0px 0px;
+		filter: drop-shadow(hsla(0, 0%, 0%, 1) 0px 1px 3px);
+		padding: 0px;
+	}
+
+	.navbar button span
+	{
+		color: #fff !important;
+		padding: 0px;
+		font-size: 16px;
+		line-height: 0px;
+		height: inherit;
+	}
+
+	body > header > nav > div.navbar-header-mobile > a > img
+	{
+		width: 60px;
+		margin: 10px 0px 0px 30px;
+	}
+
+	.navbar-collapse
+	{
+		z-index: 2;
+		position: relative;
+		border: none;
+	}
+
+	ul.nav-mobile
+	{
+		list-style: none;
+		padding: 0px 5px 0px 0px;
+		margin: 0px;
+		float: right;
+	}
+
+	.nav-mobile li
+	{
+		margin-bottom: 3px;
+	}
+
+	.nav-mobile li span
+	{
+		margin-left: 5px;
+	}
+
+	.nav-mobile li a
+	{
+		text-decoration: none;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font: 12px 'Century Gothic';
+	    display: block;
+	    line-height: 25px;
+	    margin-right: 5px;
+	    text-align: right;
+	}
+
+	.nav-mobile li a.active
+	{
+		color: #1ecaa9;
+	}
+
+	.nav-mobile li a:hover
+	{
+		text-decoration: none;
+	}
+
+	/*/////////////// HEADER /////////////////*/
+	.banner
+	{
+		min-height: 500px;
+	}
+
+	.banner h1
+	{
+		font-size: 25px;
+		line-height: 30px;
+		bottom: 50%;
+		padding: 0px 10px;
+	}
+
+	.banner img[src="img/logo2.png"]
+	{
+		margin-top: 30px;
+		width: 70px;
+	}
+
+	.banner a
+	{
+		font-size: 12px;
+	}
+
+	.banner .p-contact-btn
+	{
+		bottom: 30%;
+	}
+
+	.banner a.contact-btn
+	{
+		background-color: #1ecaa9;
+		padding: 10px;
+		font-size: 12px;
+	}
+
+	.banner p
+	{
+		bottom: 10%;
+	}
+
+	/*/////////////// KNOWLEDGE /////////////////*/
+	.knowledge
+	{
+		padding: 50px 15px 20px 15px;
+	}
+
+	.knowledge .col-sm-4
+	{
+		padding: 0px;
+	}
+
+	.knowledge h3
+	{
+		margin: 10px 0px 0px 0px;
+	}
+
+	.knowledge span
+	{
+		margin-top: 10px !important;
+		font-size: 30px !important;
+	}
+
+	.knowledge p
+	{
+		line-height: 20px;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	/*/////////////// WORK /////////////////*/
+	.work
+	{
+		padding: 50px 40px 0px 40px;
+	}
+
+	.work .row
+	{
+		margin-bottom: 40px;
+	}
+
+	.work h3
+	{
+		text-align: center;
+	}
+
+	.work img
+	{
+		-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    	filter: grayscale(0%);
+	}
+
+	.work p.work-button
+	{
+		text-align: center;
+	}
+
+	.work p.btn-modal
+	{
+		display: none;
+	}
+
+	.work .project-info
+	{
+		display: block;
+		text-align: justify;
+	}
+
+	.work img.thumbnail
+	{
+		display: none !important;
+	}
+
+	.work .thumbnail-slide
+	{
+		display: block !important;
+	}
+
+	.work img
+	{
+		margin: 0px auto;
+	}
+
+	.work #clientCarousel img
+	{
+		width: auto;
+	}
+
+	.work .col-md-4
+	{
+		text-align: center;
+	}
+
+	.work > div > div.col-md-8.col-sm-12 > p.work-info > span
+	{
+		padding-right: 10px;
+	}
+
+	.work .carousel-indicators
+	{
+		display: none;
+	}
+
+	.work a.portfolio-btn
+	{
+		font-size: 12px;
+		padding: 10px;
+	}
+
+	/*/////////////// TECHNOLOGY /////////////////*/
+	.technology
+	{
+		padding: 50px 15px 0px 15px;
+	}
+
+	.technology img
+	{
+		height: 25px;
+	}
+
+	.technology div
+	{
+		margin-bottom: 20px;
+	}
+
+	/*/////////////// ABOUT /////////////////*/
+	.about
+	{
+		padding: 50px 20px 50px 20px;
+	}
+
+	.about h2
+	{
+		margin-bottom: 30px;
+	}
+
+	.about span
+	{
+		font-size: 17px;
+	}
+
+	#aboutme > div:nth-child(2)
+	{
+		padding: 0px 20px;
+	}
+
+	/*/////////////// CONTACT /////////////////*/
+	footer #contact
+	{
+		padding: 20px 50px 0px 50px;
+	}
+
+	.footer
+	{
+		border: none;
+	}
+
+	footer #contact span, .footer span
+	{
+		margin-bottom: 10px;
+	}
+
+	.portfolio-footer
+	{
+		padding-top: 0px 
+	}
+
+	.footer p
+	{
+		margin-top: 10px;
+	}
+
+	.portfolio-footer .social-media-icons
+	{
+		margin-bottom: 10px;
+	}
+
+	/* BACK TO TOP */
+	a.back-to-top {
+		width: 30px;
+		height: 30px;
+		right: 10px;
+		bottom: 10px;
+	}
+
+	/* MODAL */
+	.modal .carousel .carousel-indicators
+	{
+		bottom: -20%;
+	}
+}/* END of @media 767*/ 

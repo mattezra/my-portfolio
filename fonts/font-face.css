@@ -1,0 +1,22 @@
+@font-face {
+    font-family:'Century Gothic';
+    src: url('Century-Gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('fontawesome-webfont.eot');
+    src: url('fontawesome-webfont.eot') format('embedded-opentype'),
+         url('fontawesome-webfont.woff') format('woff'),
+         url('fontawesome-webfont.ttf') format('truetype'),
+         url('fontawesome-webfont.svg#FontAwesome') format('svg');
+}
+
+@font-face {
+    font-family:'Ubuntu';
+    src: url('ubuntu-b-webfont.eot');
+    src: url('ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+        url('ubuntu-b-webfont.woff') format('woff'),
+        url('ubuntu-b-webfont.ttf') format('truetype'),
+        url('ubuntu-b-webfont.svg#Ubuntu') format('svg');
+}

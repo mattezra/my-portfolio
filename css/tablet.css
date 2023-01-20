@@ -1,0 +1,162 @@
+/*##################################################
+* TABLET VIEW
+####################################################*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/*#############################################
+	* GENERAL STYLES 
+	##############################################*/
+	h5
+	{
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+
+	h3
+	{
+		font-size: 18px;
+	}
+
+	h2
+	{
+		font-size: 25px;
+	}
+
+	/*/////////////// HEADER /////////////////*/
+	ul.nav-menu li 
+	{
+		width: 90px;
+	}
+
+	ul.nav-menu > a 
+	{
+		font-size: 12.5px;
+	}
+
+	/*.banner .container, .scrolled-header .container
+	{
+		width: inherit;
+	}*/
+
+	.banner img[src="img/logo2.png"]
+	{
+		width: 90px;
+	}
+
+	.banner h1
+	{
+		font-size: 35px;
+		line-height: 40px;
+	}
+
+	.banner a.contact-btn
+	{
+		background-color: #1ecaa9;
+	}
+
+	/*/////////////// KNOWLEDGE /////////////////*/
+	.knowledge .col-sm-4
+	{
+		padding: 0px;
+	}
+
+	.knowledge span
+	{
+		font-size: 40px !important;
+	}
+
+	.knowledge p
+	{
+		font-size: 13px;
+		line-height: 20px;
+		padding: 10px 20px 15px 20px;
+	}`
+
+	.knowledge a
+	{
+		font-size: 10px;
+		padding: 8px;
+	}
+
+	/*/////////////// WORK /////////////////*/
+	.work
+	{
+		padding-bottom: 10px;
+	}
+
+	.work .row
+	{
+		margin-bottom: 60px;
+	}
+
+	.work h3
+	{
+		text-align: center;
+	}
+
+	.work p.work-button
+	{
+		text-align: center;
+	}
+
+	.work p.btn-modal
+	{
+		display: none;
+	}
+
+	.work .project-info
+	{
+		display: block;
+		text-align: justify;
+	}
+
+	.work .thumbnail-slide
+	{
+		display: block !important;
+	}
+
+	.work img.thumbnail
+	{
+		display: none !important;
+	}	
+
+	.work img
+	{
+		margin: 20px auto 0px auto;
+		-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    	filter: grayscale(0%);
+	}
+
+	.work #clientCarousel img
+	{
+		width: auto;
+	}
+
+	.work .col-md-4
+	{
+		text-align: center;
+	}
+
+	.work .carousel-indicators
+	{
+		display: none;
+	}
+
+	/*/////////////// TECHNOLOGY /////////////////*/
+	.technology
+	{
+		padding: 100px 15px 0px 15px;
+	}
+
+	/*/////////////// ABOUT /////////////////*/
+	.about
+	{
+		padding: 100px 70px 100px 70px;
+	}
+
+	/*///////////CONTACT//////////////*/ 
+	footer #contact
+	{
+		padding: 20px 50px 0px 50px;
+	}
+}
